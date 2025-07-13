@@ -2,7 +2,7 @@
 import  AuthModel from '../Model/auth.model.js'
 
 // Importing bycrypt
-import bycrypt from "bcrypt"
+import bcrypt from "bcrypt"
 
 // Login Controller
 export const loginUser = async (req, res) => {
